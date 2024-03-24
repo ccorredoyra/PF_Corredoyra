@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
+
+$colorFondo: blue;
+$colorBorde: blue;
+$colorRedes: blue;
+$colorSombra: white;
+$fontNav: 'Protest Riot', sans-serif;
+$fontSizeNav: xx-large;
+$colorBoton: linear-gradient( 288deg,  rgba(0,85,255,1) 1.5%, rgba(4,56,115,1) 91.6% );
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar{
+    background-image: linear-gradient( 288deg,  rgba(0,85,255,1) 1.5%, rgba(4,56,115,1) 91.6% );
+}
+.navbar-brand{
+    color: white !important;
+    font-family: $fontNav;
+    font-size: $fontSizeNav;
+    text-shadow: 0 0 20px 20px black;
+}
+.navbar-brand img{
+    height: 100px;
+}
+.nav-link{
+    color: white;
+    text-shadow: 0 0 5px 5px $colorSombra;
+}
+.nav-link:hover{
+    color: white!important;
+}
+.jumbotron {
+    /* height: 625px; */
+    /* height: auto; */
+    width: 100%;
+    background-image: url(../images/2480X1000_molfetta_Inicio.webp);
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    font-size: medium;
+}
+h4{
+    font-size: medium;
+}
+.call{
+    color: white;
+    width: 80%;
+    border: 3px solid $colorBorde;
+    margin: 15px;
+    float: right !important;
+    padding: 15px;
+    background-color: rgb(0,0,0,0.4);
+    border-radius: 15px;
+    p{
+        font-size: x-small;
+    }
+    span {
+        font-style: oblique;
+    }
+    a{
+    background-image: $colorBoton; 
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    border-radius: 10px;
+    font-size: small;      
+    }
+}
+
+.call p::first-letter{
+    font-size: small;
+}
+
+.call a:hover{
+    box-shadow: 0 0 5px 5px $colorSombra;    
+}
+
+.historia{
+    color: white;
+    width: 90%;
+    border: 3px solid $colorBorde;
+    margin: 10px;
+    float: left;
+    padding: 15px;
+    background-color: rgb(0,0,0,0.4);
+    border-radius: 15px;
+
+    p{
+    color: white;
+    margin-bottom: 20px;
+    font-size: x-small;  
+    }
+
+    a{
+        // background-color: $colorFondo;
+        background-image: $colorBoton;
+        color: white;
+        text-decoration: none;
+        padding: 10px 20px;
+        text-transform: capitalize;
+        border-radius: 10px;
+        font-size: small;    
+    }
+}
+
+.historia p::first-letter{
+    font-size: small;
+}
+
+.historia p span {
+    font-style: oblique;
+}
+
+.historia a:hover{
+    box-shadow: 0 0 5px 5px $colorSombra; 
+}
+
+
+.nright{
+    margin: 5px;
+    padding: 10px;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+
+.nright:hover{
+    box-shadow: 0 0 2px 2px $colorSombra;  
+    transform: scale(1.02); 
+}
+
+
+.nright1{
+    margin: 5px;
+    padding: 10px;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+
+.nright1:hover{
+    box-shadow: 0 0 2px 2px $colorSombra; 
+    transform: scale(1.02); 
+}
+
+.ubicacion{
+    color: white;
+    border: 3px solid $colorBorde;
+    margin: 5px;
+    float: left;
+    padding: 15px;
+    background-color: rgb(0,0,0,0.4);
+    border-radius: 15px;
+    margin-bottom: 100px !important; 
+    p{
+        color: white;
+        margin-bottom: 20px;
+        font-size: x-small;
+    }
+    a{
+        background-image: $colorBoton;
+        color: white;
+        text-decoration: none;
+        padding: 10px 20px;
+        text-transform: capitalize;
+        border-radius: 10px;
+        font-size: small;
+    }
+
+}
+.ubicacion p::first-letter{
+    font-size: small;
+}
+.ubicacion a:hover{
+    box-shadow: 0 0 5px 5px $colorSombra;    
+}
+.ubicacion iframe:hover{
+    box-shadow: 0 0 5px 5px $colorSombra;
+} 
+.europa {
+    color: white;
+    width: 40%; 
+    border: 3px solid $colorBorde;
+    margin: 3px;
+    float: left;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+.europa:hover{
+    box-shadow: 0 0 5px 5px $colorSombra;
+    transform: scale(1.10);   
+}
+
+.italia {
+    color: white;
+    width: 30%; 
+    border: 3px solid $colorBorde;
+    margin: 3px;
+    float: right;
+    padding: 3px;
+    border-radius: 10px;
+}
+.italia:hover{
+    box-shadow: 0 0 5px 5px $colorSombra;
+    transform: scale(1.10);   
+}
+.uright{
+    margin: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 30%; 
+}
+
+.uright:hover{
+    transform: scale(1.01);
+}
+
+.turismo{
+    color: white;
+    border: 3px solid $colorBorde;
+    margin: 10px;
+    margin: 5px;
+    float: left;
+    padding: 15px;
+    background-color: rgb(0,0,0,0.4);
+    border-radius: 15px;
+    margin-bottom: 120px !important; 
+    p{
+        color: white;
+        margin-bottom: 20px;
+        font-size: x-small;
+    }
+    a{
+        background-image: $colorBoton;
+        color: white;
+        text-decoration: none;
+        padding: 10px 20px;
+        text-transform: capitalize;
+        border-radius: 10px;
+        font-size: small;    
+    }
+}
+.turismo a:hover{
+    box-shadow: 0 0 5px 5px $colorSombra;    
+}
+.tright{
+    margin: 5px;
+    padding: 10px;
+    background-size: cover;
+    background-position: center;
+    height: auto; 
+}
+.informacion{
+    color: white;
+    width: 90%;
+    border: 3px solid $colorBorde;
+    margin: 20px;
+    float: left;
+    padding: 15px;
+    background-color: rgb(0,0,0,0.4);
+    border-radius: 15px;
+    font-size: x-small;
+    p{
+        color: white;
+        margin-bottom: 20px;
+    }
+}
+.form-control {
+    font-size: x-small;
+}
+.form-control:focus{
+    box-shadow: 0 0 5px 5px rgb(104, 215, 249) !important; 
+}
+.consulta{
+    width: auto !important;
+}
+.form-control{
+    padding: 5px !important;
+}
+.boton{
+    background-image: linear-gradient( 288deg,  rgba(0,85,255,1) 1.5%, rgba(4,56,115,1) 91.6% );
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+    text-transform: capitalize;
+    border-radius: 5px;
+    font-size: small;    
+}
+.boton:hover{
+    box-shadow: 0 0 5px 5px $colorSombra;
+} 
+
+@import "_footer.scss";
+@import "_redes.scss";
+@import "_subir.scss";

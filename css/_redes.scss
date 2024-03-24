@@ -1,0 +1,11 @@
+.redes a{
+    text-decoration: none;
+    i{
+        color: $colorRedes;
+        font-size: 30px;
+        letter-spacing: 20px;
+    }
+} 
+.redes a i:hover{
+    color: rgb(130, 238, 236);
+}

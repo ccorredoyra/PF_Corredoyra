@@ -1,0 +1,350 @@
+@import url("https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-image: linear-gradient(288deg, rgb(0, 85, 255) 1.5%, rgb(4, 56, 115) 91.6%);
+}
+
+.navbar-brand {
+  color: white !important;
+  font-family: "Protest Riot", sans-serif;
+  font-size: xx-large;
+  text-shadow: 0 0 20px 20px black;
+}
+
+.navbar-brand img {
+  height: 100px;
+}
+
+.nav-link {
+  color: white;
+  text-shadow: 0 0 5px 5px white;
+}
+
+.nav-link:hover {
+  color: white !important;
+}
+
+.jumbotron {
+  /* height: 625px; */
+  /* height: auto; */
+  width: 100%;
+  background-image: url(../images/2480X1000_molfetta_Inicio.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  font-size: medium;
+}
+
+h4 {
+  font-size: medium;
+}
+
+.call {
+  color: white;
+  width: 80%;
+  border: 3px solid blue;
+  margin: 15px;
+  float: right !important;
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 15px;
+}
+.call p {
+  font-size: x-small;
+}
+.call span {
+  font-style: oblique;
+}
+.call a {
+  background-image: linear-gradient(288deg, rgb(0, 85, 255) 1.5%, rgb(4, 56, 115) 91.6%);
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  text-transform: capitalize;
+  border-radius: 10px;
+  font-size: small;
+}
+
+.call p::first-letter {
+  font-size: small;
+}
+
+.call a:hover {
+  box-shadow: 0 0 5px 5px white;
+}
+
+.historia {
+  color: white;
+  width: 90%;
+  border: 3px solid blue;
+  margin: 10px;
+  float: left;
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 15px;
+}
+.historia p {
+  color: white;
+  margin-bottom: 20px;
+  font-size: x-small;
+}
+.historia a {
+  background-image: linear-gradient(288deg, rgb(0, 85, 255) 1.5%, rgb(4, 56, 115) 91.6%);
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  text-transform: capitalize;
+  border-radius: 10px;
+  font-size: small;
+}
+
+.historia p::first-letter {
+  font-size: small;
+}
+
+.historia p span {
+  font-style: oblique;
+}
+
+.historia a:hover {
+  box-shadow: 0 0 5px 5px white;
+}
+
+.nright {
+  margin: 5px;
+  padding: 10px;
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+}
+
+.nright:hover {
+  box-shadow: 0 0 2px 2px white;
+  transform: scale(1.02);
+}
+
+.nright1 {
+  margin: 5px;
+  padding: 10px;
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+}
+
+.nright1:hover {
+  box-shadow: 0 0 2px 2px white;
+  transform: scale(1.02);
+}
+
+.ubicacion {
+  color: white;
+  border: 3px solid blue;
+  margin: 5px;
+  float: left;
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 15px;
+  margin-bottom: 100px !important;
+}
+.ubicacion p {
+  color: white;
+  margin-bottom: 20px;
+  font-size: x-small;
+}
+.ubicacion a {
+  background-image: linear-gradient(288deg, rgb(0, 85, 255) 1.5%, rgb(4, 56, 115) 91.6%);
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  text-transform: capitalize;
+  border-radius: 10px;
+  font-size: small;
+}
+
+.ubicacion p::first-letter {
+  font-size: small;
+}
+
+.ubicacion a:hover {
+  box-shadow: 0 0 5px 5px white;
+}
+
+.ubicacion iframe:hover {
+  box-shadow: 0 0 5px 5px white;
+}
+
+.europa {
+  color: white;
+  width: 40%;
+  border: 3px solid blue;
+  margin: 3px;
+  float: left;
+  padding: 3px;
+  border-radius: 10px;
+}
+
+.europa:hover {
+  box-shadow: 0 0 5px 5px white;
+  transform: scale(1.1);
+}
+
+.italia {
+  color: white;
+  width: 30%;
+  border: 3px solid blue;
+  margin: 3px;
+  float: right;
+  padding: 3px;
+  border-radius: 10px;
+}
+
+.italia:hover {
+  box-shadow: 0 0 5px 5px white;
+  transform: scale(1.1);
+}
+
+.uright {
+  margin: 5px;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 30%;
+}
+
+.uright:hover {
+  transform: scale(1.01);
+}
+
+.turismo {
+  color: white;
+  border: 3px solid blue;
+  margin: 10px;
+  margin: 5px;
+  float: left;
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 15px;
+  margin-bottom: 120px !important;
+}
+.turismo p {
+  color: white;
+  margin-bottom: 20px;
+  font-size: x-small;
+}
+.turismo a {
+  background-image: linear-gradient(288deg, rgb(0, 85, 255) 1.5%, rgb(4, 56, 115) 91.6%);
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  text-transform: capitalize;
+  border-radius: 10px;
+  font-size: small;
+}
+
+.turismo a:hover {
+  box-shadow: 0 0 5px 5px white;
+}
+
+.tright {
+  margin: 5px;
+  padding: 10px;
+  background-size: cover;
+  background-position: center;
+  height: auto;
+}
+
+.informacion {
+  color: white;
+  width: 90%;
+  border: 3px solid blue;
+  margin: 20px;
+  float: left;
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 15px;
+  font-size: x-small;
+}
+.informacion p {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.form-control {
+  font-size: x-small;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 5px 5px rgb(104, 215, 249) !important;
+}
+
+.consulta {
+  width: auto !important;
+}
+
+.form-control {
+  padding: 5px !important;
+}
+
+.boton {
+  background-image: linear-gradient(288deg, rgb(0, 85, 255) 1.5%, rgb(4, 56, 115) 91.6%);
+  color: white;
+  text-decoration: none;
+  padding: 10px 10px;
+  text-transform: capitalize;
+  border-radius: 5px;
+  font-size: small;
+}
+
+.boton:hover {
+  box-shadow: 0 0 5px 5px white;
+}
+
+footer {
+  background-color: #000;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+footer p {
+  font-size: 15px;
+  margin-bottom: 5px;
+  padding: 10px;
+}
+
+.redes a {
+  text-decoration: none;
+}
+.redes a i {
+  color: blue;
+  font-size: 30px;
+  letter-spacing: 20px;
+}
+
+.redes a i:hover {
+  color: rgb(130, 238, 236);
+}
+
+.subir {
+  height: 25px;
+  width: 25px;
+  color: #f5f0f0;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  font: size 15px;
+  text-align: center;
+  line-height: 25px;
+  border-radius: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 3px 3px white;
+}
+
+/*# sourceMappingURL=estilos.css.map */

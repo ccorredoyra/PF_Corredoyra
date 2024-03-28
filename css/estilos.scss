@@ -5,9 +5,18 @@ $colorFondo: blue;
 $colorBorde: blue;
 $colorRedes: blue;
 $colorSombra: white;
+$colorBoton: linear-gradient( 288deg,  rgba(0,85,255,1) 1.5%, rgba(4,56,115,1) 91.6% );
 $fontNav: 'Protest Riot', sans-serif;
 $fontSizeNav: xx-large;
-$colorBoton: linear-gradient( 288deg,  rgba(0,85,255,1) 1.5%, rgba(4,56,115,1) 91.6% );
+$fontSizeNav: 30px;
+$fontSizeH1:20px;
+$fontSizeH4: 17px;
+$fontSizep: 16px;
+$fontSizepp: 18px;
+$fontSizea: 16px;
+$fontSizef: 18px;
+$fontSizer: 30px;    
+$fontSizes: 15px;
 
 
 
@@ -37,16 +46,21 @@ $colorBoton: linear-gradient( 288deg,  rgba(0,85,255,1) 1.5%, rgba(4,56,115,1) 9
     color: white!important;
 }
 .jumbotron {
+    /* height: 625px; */
+    /* height: auto; */
     width: 100%;
+    background-color: radial-gradient( circle farthest-corner at 10% 20%,  rgba(38,51,97,1) 0%, rgba(65,143,222,1) 79% );
     background-image: url(../images/2480X1000_molfetta_Inicio.webp);
     background-size: cover;
     background-position: center;
 }
 h1{
     font-size: medium;
+    font-size: $fontSizeH1;
 }
 h4{
     font-size: medium;
+    font-size: $fontSizeH4;
 }
 .call{
     color: white;
@@ -59,6 +73,7 @@ h4{
     border-radius: 15px;
     p{
         font-size: x-small;
+        font-size: $fontSizep;
     }
     span {
         font-style: oblique;
@@ -70,12 +85,14 @@ h4{
     padding: 10px 20px;
     text-transform: capitalize;
     border-radius: 10px;
-    font-size: small;      
+    font-size: small;    
+    font-size: $fontSizea;  
     }
 }
 
 .call p::first-letter{
     font-size: small;
+    font-size: $fontSizepp;
 }
 
 .call a:hover{
@@ -96,6 +113,7 @@ h4{
     color: white;
     margin-bottom: 20px;
     font-size: x-small;  
+    font-size: $fontSizep;
     }
 
     a{
@@ -107,11 +125,13 @@ h4{
         text-transform: capitalize;
         border-radius: 10px;
         font-size: small;    
+        font-size: $fontSizea;
     }
 }
 
 .historia p::first-letter{
     font-size: small;
+    font-size: $fontSizepp;
 }
 
 .historia p span {
@@ -163,6 +183,7 @@ h4{
         color: white;
         margin-bottom: 20px;
         font-size: x-small;
+        font-size: $fontSizep;
     }
     a{
         background-image: $colorBoton;
@@ -172,11 +193,13 @@ h4{
         text-transform: capitalize;
         border-radius: 10px;
         font-size: small;
+        font-size: $fontSizea;
     }
 
 }
 .ubicacion p::first-letter{
     font-size: small;
+    font-size: $fontSizepp;
 }
 .ubicacion a:hover{
     box-shadow: 0 0 5px 5px $colorSombra;    
@@ -240,6 +263,7 @@ h4{
         color: white;
         margin-bottom: 20px;
         font-size: x-small;
+        font-size: $fontSizep;
     }
     a{
         background-image: $colorBoton;
@@ -249,6 +273,7 @@ h4{
         text-transform: capitalize;
         border-radius: 10px;
         font-size: small;    
+        font-size: $fontSizea;
     }
 }
 .turismo a:hover{
@@ -270,14 +295,16 @@ h4{
     padding: 15px;
     background-color: rgb(0,0,0,0.4);
     border-radius: 15px;
-    font-size: x-small;
     p{
+        font-size: x-small;
+        font-size: $fontSizep;
         color: white;
         margin-bottom: 20px;
     }
 }
 .form-control {
     font-size: x-small;
+    font-size: $fontSizep;
 }
 .form-control:focus{
     box-shadow: 0 0 5px 5px rgb(104, 215, 249) !important; 
@@ -296,6 +323,7 @@ h4{
     text-transform: capitalize;
     border-radius: 5px;
     font-size: small;    
+    font-size: $fontSizea;
 }
 .boton:hover{
     box-shadow: 0 0 5px 5px $colorSombra;

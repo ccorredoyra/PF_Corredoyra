@@ -12,7 +12,7 @@
 .navbar-brand {
   color: white !important;
   font-family: "Protest Riot", sans-serif;
-  font-size: xx-large;
+  font-size: 30px;
   text-shadow: 0 0 20px 20px black;
 }
 
@@ -30,7 +30,10 @@
 }
 
 .jumbotron {
+  /* height: 625px; */
+  /* height: auto; */
   width: 100%;
+  background-color: radial-gradient(circle farthest-corner at 10% 20%, rgb(38, 51, 97) 0%, rgb(65, 143, 222) 79%);
   background-image: url(../images/2480X1000_molfetta_Inicio.webp);
   background-size: cover;
   background-position: center;
@@ -38,10 +41,12 @@
 
 h1 {
   font-size: medium;
+  font-size: 20px;
 }
 
 h4 {
   font-size: medium;
+  font-size: 17px;
 }
 
 .call {
@@ -56,6 +61,7 @@ h4 {
 }
 .call p {
   font-size: x-small;
+  font-size: 16px;
 }
 .call span {
   font-style: oblique;
@@ -68,10 +74,12 @@ h4 {
   text-transform: capitalize;
   border-radius: 10px;
   font-size: small;
+  font-size: 16px;
 }
 
 .call p::first-letter {
   font-size: small;
+  font-size: 18px;
 }
 
 .call a:hover {
@@ -92,6 +100,7 @@ h4 {
   color: white;
   margin-bottom: 20px;
   font-size: x-small;
+  font-size: 16px;
 }
 .historia a {
   background-image: linear-gradient(288deg, rgb(0, 85, 255) 1.5%, rgb(4, 56, 115) 91.6%);
@@ -101,10 +110,12 @@ h4 {
   text-transform: capitalize;
   border-radius: 10px;
   font-size: small;
+  font-size: 16px;
 }
 
 .historia p::first-letter {
   font-size: small;
+  font-size: 18px;
 }
 
 .historia p span {
@@ -155,6 +166,7 @@ h4 {
   color: white;
   margin-bottom: 20px;
   font-size: x-small;
+  font-size: 16px;
 }
 .ubicacion a {
   background-image: linear-gradient(288deg, rgb(0, 85, 255) 1.5%, rgb(4, 56, 115) 91.6%);
@@ -164,10 +176,12 @@ h4 {
   text-transform: capitalize;
   border-radius: 10px;
   font-size: small;
+  font-size: 16px;
 }
 
 .ubicacion p::first-letter {
   font-size: small;
+  font-size: 18px;
 }
 
 .ubicacion a:hover {
@@ -237,6 +251,7 @@ h4 {
   color: white;
   margin-bottom: 20px;
   font-size: x-small;
+  font-size: 16px;
 }
 .turismo a {
   background-image: linear-gradient(288deg, rgb(0, 85, 255) 1.5%, rgb(4, 56, 115) 91.6%);
@@ -246,6 +261,7 @@ h4 {
   text-transform: capitalize;
   border-radius: 10px;
   font-size: small;
+  font-size: 16px;
 }
 
 .turismo a:hover {
@@ -269,15 +285,17 @@ h4 {
   padding: 15px;
   background-color: rgba(0, 0, 0, 0.4);
   border-radius: 15px;
-  font-size: x-small;
 }
 .informacion p {
+  font-size: x-small;
+  font-size: 16px;
   color: white;
   margin-bottom: 20px;
 }
 
 .form-control {
   font-size: x-small;
+  font-size: 16px;
 }
 
 .form-control:focus {
@@ -300,6 +318,7 @@ h4 {
   text-transform: capitalize;
   border-radius: 5px;
   font-size: small;
+  font-size: 16px;
 }
 
 .boton:hover {
@@ -314,6 +333,7 @@ footer {
 }
 footer p {
   font-size: 15px;
+  font-size: 18px;
   margin-bottom: 5px;
   padding: 10px;
 }
@@ -323,6 +343,7 @@ footer p {
 }
 .redes a i {
   color: blue;
+  font-size: 30px;
   font-size: 30px;
   letter-spacing: 20px;
 }
@@ -338,7 +359,8 @@ footer p {
   position: fixed;
   right: 10px;
   bottom: 10px;
-  font: size 15px;
+  font-size: 15px;
+  font-size: 15px;
   text-align: center;
   line-height: 25px;
   border-radius: 10px;

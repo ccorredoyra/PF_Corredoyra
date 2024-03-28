@@ -37,7 +37,7 @@
                 <a class="nav-link" href="../sections/turismo.html">Turismo</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../sections/informacion.html">Información</a>
+                <a class="nav-link" href="../sections/informacion.html">Info</a>
               </li>
             </ul>
           </div>
@@ -49,11 +49,9 @@
             <div class="row">
                 <div class="nLeft col-sm-5 informacion">
                   <h1 class="animate__animated animate__fadeInDownBig">Solicitud de información.</h1>
-                  <p>Complete los datos solicitados para poder armar y enviar a su casilla de correo toda la información solicitada para que pueda conocer este maravilloso lugar frente al mar Adriático y degustar la exquisita cocina de la zona de la Puglia, Italia.</p>
+                  <p>Complete los datos solicitados para poder armar y enviar a su casilla de correo toda la información necesaria para que pueda conocer este maravilloso lugar frente al mar Adriático.</p>
                   <h4 class="animate__animated animate__fadeInUpBig">También podemos enviarle información de los lugares turísticos más cercanos a Molfetta:</h4>
-                  <p>Al Sur: Giovinazzo, Bari, Mola di Bari, Polignano a Mare, Monopoli, Trani, Albarobelo, Locorotondo, etc. <br>
-                     Al Norte: Bisceglie, Trani, Barletta, etc. <br>
-                     Al Oeste: Gravinia in Puglia, Matera, Altamura, etc.     
+                  <p>Giovinazzo, Bari, Mola di Bari, Polignano a Mare, Monopoli, Trani, Albarobelo, Locorotondo, Bisceglie, Trani, Barletta, Gravinia in Puglia, Matera, Altamura, etc.
                   </p>
                 </div>
             </div>
@@ -61,23 +59,24 @@
         <div class="container-fluid">
           <div class="row">
             <div class="nleft col-sm-5 informacion">
-                <form action="https://formsubmit.co/ccorredoira68@gmail.com" method="POST" class="was-validated">    
+              <!-- <form action="action_page.php" method="POST" class="was-validated" > -->
+              <form action="https://formsubmit.co/ccorredoira68@gmail.com" method="POST" class="was-validated">  
                 <div class="mb-2 row">
                   <label for="inputNombre" class="col-sm-2 col-form-label">Nombre</label>
                   <div class="col-sm-6">
-                    <input type="text" class="form-control" id="inputNombre" name="nombre" placeholder="Ingrese el nombre" value="" required>
+                    <input type="text" class="form-control" id="firstname" name="firstname" placeholder="Ingrese el nombre" value="" required>
                   </div>
                 </div>
                 <div class="mb-2 row">
                   <label for="inputApellido" class="col-sm-2 col-form-label">Apellido</label>
                   <div class="col-sm-6">
-                    <input type="text" class="form-control" id="inputApellido" name="apellido" placeholder="Ingrese el apellido/s" value="" required>
+                    <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Ingrese el apellido/s" value="" required>
                   </div>
                 </div>
                 <div class="mb-2 row">
                   <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
                   <div class="col-sm-8">
-                    <input type="email" class="form-control" id="inputEmail" name="email" placeholder="Ingrese el eMail" value="" required>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Ingrese el eMail" value="" required>
                   </div>
                 </div>
                 <div class="mb-2 row">
@@ -90,14 +89,13 @@
                     <label for="inputConsulta" class="col-sm-2 col-form-label">Consulta</label>
                     <div class="col-sm-2">
                       <div class="form-floating consulta">
-                        <textarea class="form-control" placeholder="Ingrese su consulta" id="floatingTextarea2" name="consulta" style="height: 60px" required></textarea>
+                        <textarea class="form-control" placeholder="Ingrese su consulta" id="message" name="message" style="height: 60px" required></textarea>
                         <label for="floatingTextarea2">Comments</label>
                       </div>
                     </div>
                 </div>
                 <div>
                     <button type="submit" class="btn btn-primary btn-sm boton" name="enviar">Enviar</button>
-            <!-- <input type="hidden" name="_next" id="nextUrl" value="https://pf-corredoyra.vercel.app/sections/informacion.html"> -->
                     <input type="hidden" name="_next" id="nextUrl" value="https://ccorredoyra.netlify.app/sections/informacion">
                     <input type="hidden" name="_captcha" value="false">
                     <button type="reset" class="btn btn-secondary btn-sm boton">Borrar</button> 

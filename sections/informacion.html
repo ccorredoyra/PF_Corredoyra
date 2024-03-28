@@ -83,22 +83,22 @@
                 <div class="mb-2 row">
                   <label for="inputFNacimiento" class="col-sm-2 col-form-label">Fecha Nacimiento</label>
                   <div class="col-sm-2">
-                    <input type="date" class="form-control" id="inputFNacimiento" required>
+                    <input type="date" class="form-control" id="inputFNacimiento" name="fecha nacimiento" required>
                   </div>
                 </div>
                 <div class="mb-2 row">
                     <label for="inputConsulta" class="col-sm-2 col-form-label">Consulta</label>
                     <div class="col-sm-2">
                       <div class="form-floating consulta">
-                        <textarea class="form-control" placeholder="Ingrese su consulta" id="message" name="message" style="height: 60px" required></textarea>
+                        <textarea class="form-control" placeholder="Ingrese su consulta" id="consulta" name="consulta" style="height: 60px" required></textarea>
                         <label for="floatingTextarea2">Comments</label>
                       </div>
                     </div>
                 </div>
                 <div>
                     <button type="submit" class="btn btn-primary btn-sm boton" name="enviar">Enviar</button>
-                    <input type="hidden" name="_next" id="nextUrl" value="https://ccorredoyra.netlify.app/sections/informacion">
-                    <input type="hidden" name="_captcha" value="false">
+                    <!-- <input type="hidden" name="_next" id="nextUrl" value="https://ccorredoyra.netlify.app/sections/informacion">
+                    <input type="hidden" name="_captcha" value="false"> -->
                     <button type="reset" class="btn btn-secondary btn-sm boton">Borrar</button> 
                 </div>  
              </form> 

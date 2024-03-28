@@ -51,7 +51,7 @@
                   <h1 class="animate__animated animate__fadeInDownBig">Solicitud de información.</h1>
                   <p>Complete los datos solicitados para poder armar y enviar a su casilla de correo toda la información necesaria para que pueda conocer este maravilloso lugar frente al mar Adriático.</p>
                   <h4 class="animate__animated animate__fadeInUpBig">También podemos enviarle información de los lugares turísticos más cercanos a Molfetta:</h4>
-                  <p>Giovinazzo, Bari, Mola di Bari, Polignano a Mare, Monopoli, Albarobelo, Locorotondo, Bisceglie, Trani, Barletta, Gravinia in Puglia, Matera, Altamura y muchos sitios más.
+                  <p>Giovinazzo, Bari, Mola di Bari, Polignano a Mare, Monopoli, Albarobelo, Locorotondo, Bisceglie, Trani, Barletta, Gravinia in Puglia, Matera, Altamura y muchos lugares más.
                   </p>
                 </div>
             </div>
@@ -59,9 +59,7 @@
         <div class="container-fluid">
           <div class="row">
             <div class="nleft col-sm-5 informacion">
-              <!-- <form action="./action_page.php" method="POST" class="was-validated" >  -->
-              <!-- <form action="https://formsubmit.co/ccorredoira68@gmail.com" method="POST" class="was-validated">   -->
-                <form name="mail_contacto" class="was-validated" netlify>  
+              <form name="mail_contacto" class="was-validated" netlify>  
                 <div class="mb-2 row">
                   <label for="inputNombre" class="col-sm-2 col-form-label">Nombre</label>
                   <div class="col-sm-6">
@@ -81,9 +79,9 @@
                   </div>
                 </div>
                 <div class="mb-2 row">
-                  <label for="inputFNacimiento" class="col-sm-2 col-form-label">Fecha Nacimiento</label>
+                  <label for="inputFViaje" class="col-sm-2 col-form-label">Fecha de viaje</label>
                   <div class="col-sm-2">
-                    <input type="date" class="form-control" id="inputFNacimiento" name="fecha nacimiento" required>
+                    <input type="date" class="form-control" id="inputFViaje" name="fecha de viaje" required>
                   </div>
                 </div>
                 <div class="mb-2 row">
@@ -97,8 +95,6 @@
                 </div>
                 <div>
                     <button type="submit" class="btn btn-primary btn-sm boton" name="enviar">Enviar</button>
-                    <!-- <input type="hidden" name="_next" id="nextUrl" value="https://ccorredoyra.netlify.app/sections/informacion">
-                    <input type="hidden" name="_captcha" value="false"> -->
                     <button type="reset" class="btn btn-secondary btn-sm boton">Borrar</button> 
                 </div>  
              </form> 
@@ -129,10 +125,6 @@
     <a href="#" class="subir">
         <i class="fa-solid fa-upload"></i>
     </a>
-
-    <!-- <?php
-      include ("action_page.php"); 
-    ?> -->
 
     <!-- Bundle -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

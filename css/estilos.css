@@ -30,8 +30,6 @@
 }
 
 .jumbotron {
-  /* height: 625px; */
-  /* height: auto; */
   width: 100%;
   background-color: radial-gradient(circle farthest-corner at 10% 20%, rgb(38, 51, 97) 0%, rgb(65, 143, 222) 79%);
   background-image: url(../images/2480X1000_molfetta_Inicio.webp);

@@ -14,27 +14,27 @@ if (isset($_POST['enviar'])){
         $header.= "X-Mailer: PHP/". phpversion();
         $mail = mail($email, $asunto, $msg, $header);
         if ($mail){
-            echo "<h4> Mail enviado exitosamente !!!</h4>";
+            echo "<script>alert("El email se envió correctamente.");</script>";
         }
         else {
-            echo "<h4> Mail NO pudo ser enviado.</h4>"; 
-            echo $nombre. "\r\n";
-            echo $apellido. "\r\n";
-            echo $email. "\r\n" ;
-            echo $asunto. "\r\n";
-            echo $msg. "\r\n";
-            echo $header. "\r\n";
+            echo "<script>alert("El email NO se ha enviado.");</script>"; 
+            // echo $nombre. "\r\n";
+            // echo $apellido. "\r\n";
+            // echo $email. "\r\n" ;
+            // echo $asunto. "\r\n";
+            // echo $msg. "\r\n";
+            // echo $header. "\r\n";
             var_dump($mail);
             
         }
     }
     else {
-        echo "<h4> La dirección del eMail es inválida.</h4>"; 
-        echo $nombre. "\r\n";
-        echo $apellido. "\r\n";
-        echo $email. "\r\n" ;
-        echo $asunto. "\r\n";
-        echo $msg. "\r\n";
+        echo "<script>alert("<h4> La dirección del eMail es inválida.</h4>");</script>";
+        // echo $nombre. "\r\n";
+        // echo $apellido. "\r\n";
+        // echo $email. "\r\n" ;
+        // echo $asunto. "\r\n";
+        // echo $msg. "\r\n";
     }
     header("Location: informacion.html");      
 }
